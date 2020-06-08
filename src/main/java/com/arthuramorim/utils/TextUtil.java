@@ -6,7 +6,7 @@ import org.bukkit.ChatColor;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StringColor {
+public class TextUtil {
 
     public static String color(String string){
 
