@@ -1,4 +1,4 @@
-package com.arthuramorim.modules.hooks;
+package com.arthuramorim.utils.hooks;
 
 import com.arthuramorim.NeroAPI;
 import org.bukkit.plugin.Plugin;

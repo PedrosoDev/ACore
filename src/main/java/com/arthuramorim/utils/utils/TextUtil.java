@@ -1,4 +1,4 @@
-package com.arthuramorim.utils;
+package com.arthuramorim.utils.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

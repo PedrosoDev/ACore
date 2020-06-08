@@ -1,4 +1,4 @@
-package com.arthuramorim.modules.reflections;
+package com.arthuramorim.utils.reflections;
 import org.bukkit.Bukkit;
 
 public enum ServerVersion

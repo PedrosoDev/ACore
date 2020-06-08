@@ -1,4 +1,4 @@
-package com.arthuramorim.utils;
+package com.arthuramorim.utils.utils;
 
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;

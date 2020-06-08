@@ -1,4 +1,4 @@
-package com.arthuramorim.inventoryGUI;/*
+package com.arthuramorim.utils.inventoryGUI;/*
  * This file is part of InventoryMenuLib, licensed under the MIT License
  *
  * Copyright (c) Gustavo Arantes (me@arantes.dev)
@@ -34,10 +34,10 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 
-import com.arthuramorim.inventoryGUI.buttons.ClickAction;
-import com.arthuramorim.inventoryGUI.buttons.ItemButton;
-import com.arthuramorim.inventoryGUI.menus.InventoryGUI;
-import com.arthuramorim.inventoryGUI.menus.PaginatedGUI;
+import com.arthuramorim.utils.inventoryGUI.buttons.ClickAction;
+import com.arthuramorim.utils.inventoryGUI.buttons.ItemButton;
+import com.arthuramorim.utils.inventoryGUI.menus.InventoryGUI;
+import com.arthuramorim.utils.inventoryGUI.menus.PaginatedGUI;
 
 @SuppressWarnings("unused")
 public class PaginatedGUIBuilder {

@@ -1,4 +1,4 @@
-package com.arthuramorim.modules.reflections;
+package com.arthuramorim.utils.reflections;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

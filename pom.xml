@@ -57,7 +57,14 @@
             <artifactId>craftbukkit-1.8.8</artifactId>
             <version>R</version>
         </dependency>
-
+        <!--PermissionEx-->
+        <dependency>
+            <groupId>PermissionsEx</groupId>
+            <artifactId>PermissionsEx</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/PermissionsEx-1.23.4.jar</systemPath>
+        </dependency>
         <!--Dependency Vault-->
         <dependency>
             <groupId>com.github.MilkBowl</groupId>

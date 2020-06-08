@@ -1,9 +1,9 @@
 package com.arthuramorim;
 
-import com.arthuramorim.inventoryGUI.listeners.InventoryListener;
-import com.arthuramorim.modules.hooks.PermissionsExAPI;
-import com.arthuramorim.modules.hooks.VaultAPI;
-import com.arthuramorim.utils.TextUtil;
+import com.arthuramorim.utils.inventoryGUI.listeners.InventoryListener;
+import com.arthuramorim.utils.hooks.PermissionsExAPI;
+import com.arthuramorim.utils.hooks.VaultAPI;
+import com.arthuramorim.utils.utils.TextUtil;
 import org.bukkit.plugin.Plugin;
 
 import java.util.HashMap;

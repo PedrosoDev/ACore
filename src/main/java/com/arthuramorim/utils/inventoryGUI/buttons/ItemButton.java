@@ -1,4 +1,4 @@
-package com.arthuramorim.inventoryGUI.buttons;/*
+package com.arthuramorim.utils.inventoryGUI.buttons;/*
  * This file is part of InventoryMenuLib, licensed under the MIT License
  *
  * Copyright (c) Gustavo Arantes (me@arantes.dev)

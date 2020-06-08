@@ -1,6 +1,6 @@
 package com.arthuramorim;
 
-import com.arthuramorim.utils.TextUtil;
+import com.arthuramorim.utils.utils.TextUtil;
 import com.google.common.collect.Lists;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;

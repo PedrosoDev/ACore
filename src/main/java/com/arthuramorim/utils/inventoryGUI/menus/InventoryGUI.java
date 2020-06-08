@@ -1,4 +1,4 @@
-package com.arthuramorim.inventoryGUI.menus;/*
+package com.arthuramorim.utils.inventoryGUI.menus;/*
  * This file is part of InventoryMenuLib, licensed under the MIT License
  *
  * Copyright (c) Gustavo Arantes (me@arantes.dev)
@@ -27,9 +27,9 @@ package com.arthuramorim.inventoryGUI.menus;/*
 import java.util.HashMap;
 import java.util.Map;
 
-import com.arthuramorim.inventoryGUI.buttons.ClickAction;
-import com.arthuramorim.inventoryGUI.buttons.ItemButton;
-import com.arthuramorim.utils.TextUtil;
+import com.arthuramorim.utils.inventoryGUI.buttons.ClickAction;
+import com.arthuramorim.utils.inventoryGUI.buttons.ItemButton;
+import com.arthuramorim.utils.utils.TextUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
