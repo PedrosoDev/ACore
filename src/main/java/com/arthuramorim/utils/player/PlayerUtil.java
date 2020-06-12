@@ -1,6 +1,9 @@
 package com.arthuramorim.utils.player;
 
+import com.arthuramorim.entity.PrestigePlayer;
+import com.arthuramorim.utils.hooks.NeroPrestigioAPI;
 import com.arthuramorim.utils.hooks.PermissionsExAPI;
+import com.arthuramorim.Main;
 import com.arthuramorim.utils.hooks.VaultAPI;
 import com.arthuramorim.utils.reflections.ServerVersion;
 import com.arthuramorim.utils.utils.MakeItem;
@@ -143,6 +146,16 @@ public class PlayerUtil {
         if (VaultAPI.use) {
             VaultAPI.getEconomy().withdrawPlayer(p, VaultAPI.getEconomy().getBalance(p));
             VaultAPI.getEconomy().depositPlayer(p, (Math.max(amount, 0.0)));
+        }
+    }
+
+    public static void addPpoints(Player p, Integer amount){
+        if(NeroPrestigioAPI.use){
+            for (PrestigePlayer prestigePlayer : Main.getArrayPlayer()) {
+                if(prestigePlayer.getName().equals(p.getName())){
+                    prestigePlayer.addPoints(amount);
+                }
+            }
         }
     }
     public static void addBalance(Player p, double amount) {

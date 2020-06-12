@@ -72,6 +72,14 @@
             <version>1.7</version>
             <scope>provided</scope>
         </dependency>
+        <!--Dependecy NeroPrestigio-->
+        <dependency>
+            <groupId>NeroPrestigio</groupId>
+            <artifactId>NeroPrestigio</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/NeroPrestigio.jar</systemPath>
+        </dependency>
 
 
     </dependencies>

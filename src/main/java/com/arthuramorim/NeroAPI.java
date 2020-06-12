@@ -1,9 +1,11 @@
 package com.arthuramorim;
 
+import com.arthuramorim.utils.hooks.NeroPrestigioAPI;
 import com.arthuramorim.utils.inventoryGUI.listeners.InventoryListener;
 import com.arthuramorim.utils.hooks.PermissionsExAPI;
 import com.arthuramorim.utils.hooks.VaultAPI;
 import com.arthuramorim.utils.utils.TextUtil;
+import com.google.common.collect.Lists;
 import org.bukkit.plugin.Plugin;
 
 import java.util.HashMap;
@@ -16,7 +18,9 @@ public class NeroAPI extends NeroPlugin {
     public static HashMap<String, NeroPlugin> registeredPlugins;
 
     public NeroAPI() {
-        super("NeroAPI", "1.0", "Arthur 'KingN3R0' Amorim");
+        super("NeroAPI","1.0","Arthur 'N3R0' Amorim");
+        hooks = Lists.newArrayList();
+        registeredPlugins = new HashMap<>();
     }
 
     @Override
@@ -30,6 +34,7 @@ public class NeroAPI extends NeroPlugin {
         new InventoryListener(this);
         VaultAPI.hook();
         PermissionsExAPI.hook();
+        NeroPrestigioAPI.hook();
         TextUtil.color("&d----------------- NeroAPI &6"+ neroAPI.getServer().getVersion()+" -----------------");
         TextUtil.color("");
         TextUtil.color("");
