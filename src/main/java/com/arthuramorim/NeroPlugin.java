@@ -45,7 +45,7 @@ public abstract class NeroPlugin extends JavaPlugin implements Listener {
         TextUtil.print("&aPlugin inicializado com sucesso!");
         TextUtil.print("&eVersao: " + this.getVersion());
         start();
-        NeroAPI.registeredPlugins.put(pluginName, this);
+
     }
 
     public void onDisable(){

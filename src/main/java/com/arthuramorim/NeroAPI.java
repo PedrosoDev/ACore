@@ -1,5 +1,6 @@
 package com.arthuramorim;
 
+import com.arthuramorim.utils.hooks.NbtItemAPI;
 import com.arthuramorim.utils.hooks.NeroPrestigioAPI;
 import com.arthuramorim.utils.inventoryGUI.listeners.InventoryListener;
 import com.arthuramorim.utils.hooks.PermissionsExAPI;
@@ -35,6 +36,7 @@ public class NeroAPI extends NeroPlugin {
         VaultAPI.hook();
         PermissionsExAPI.hook();
         NeroPrestigioAPI.hook();
+        NbtItemAPI.hook();
         TextUtil.color("&d----------------- NeroAPI &6"+ neroAPI.getServer().getVersion()+" -----------------");
         TextUtil.color("");
         TextUtil.color("");
